@@ -37,7 +37,8 @@ export default function Footer() {
                   Gizzle TV LLC
                 </h3>
                 <p className="text-sm text-[rgb(160,168,186)] mt-1">
-                  Premium live streaming platform for creators and community members.
+                  Premium live streaming platform for creators and community
+                  members.
                 </p>
               </div>
             </div>
@@ -68,6 +69,7 @@ export default function Footer() {
           <p className="text-sm text-[rgb(160,168,186)]">
             © 2026 Gizzle TV LLC. All rights reserved.
           </p>
+
           <div className="flex items-center gap-5 text-sm">
             <Link
               to="/contact"
@@ -91,5 +93,5 @@ export default function Footer() {
         </div>
       </div>
     </footer>
-  )
-           
+  );
+}
