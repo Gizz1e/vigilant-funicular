@@ -9,11 +9,13 @@ export default function Header() {
   const isActive = (path: string) => location.pathname === path;
 
   const navLinks = [
-    { path: '/', label: 'Home' },
-    { path: '/browse', label: 'Browse' },
-    { path: '/live', label: 'Live TV' },
-    { path: '/library', label: 'My Library' },
-  ];
+  { path: "/", label: "Home" },
+  { path: "/browse", label: "Models" },
+  { path: "/live", label: "Live" },
+  { path: "/library", label: "Videos" },
+  { path: "/about", label: "Community" },
+  { path: "/contact", label: "Buy Tokens" },
+];
 
   return (
     <header className="sticky top-0 z-50 bg-black/95 backdrop-blur-sm border-b border-blue-950">
