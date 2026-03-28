@@ -24,7 +24,7 @@ export default function Header() {
           <Link to="/" className="flex items-center gap-3 group min-w-0">
             <img
               src={logo}
-              alt="Gizzle TV Universal logo"
+              alt="Gizzle TV logo"
               className="h-10 w-10 rounded-md object-cover ring-1 ring-amber-300/40"
             />
             <span className="text-lg md:text-xl font-bold bg-gradient-to-r from-blue-400 via-white to-amber-300 bg-clip-text text-transparent truncate">
